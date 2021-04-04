@@ -68,23 +68,31 @@ Initially, the Atreus only has one `Fun` layer for numbers and special character
 
 ![Fun 1](./layers/1-fun1.png)
 
-This `Fun1` layout it reached the same way as the `Fun` layer in qwerty. The left part of the keyboard almost did not change.
+This `Fun1` layout it reached the same way as the `Fun` layer in qwerty. The left part of the layer almost did not change.
 
 - `"` replaces `!` because `!` can be typed on the base layer. On top of that, `"` ends up being physically at the same place as on a regular Bépo keyboard (same key as `1`).
 - `'` is right beside `"`. They are relative, so having them next to each other makes sense. Note that on 1.1rc2, the typographic apostrophe replaces the regular one. But the regular is still needed when programming for instance.
 - `<` and `>` are at the same place as on the base layer of a qwerty layout.
 - `@`, `+`, `-`, `/` and `*` are at the same place as on a regular Bépo keyboard (same keys as `6`, `7`, `8`, `9` and `0`).
 
-Other characters on the right hands at place without specific rules.
+Other characters under the right hands are placed without specific rules.
 
 #### Fun 2
 
 ![Fun 2](./layers/3-fun2.png)
 
+This `Fun2` layout is reached by holding `Esc` on the base layout with the left hand. The right part of the layer is the exact same one as the right part of the `Fun` layer of the qwerty layout (numbers).
+
+As there was not much to add on the left part of this layer, I opted for the addition of cut, copy, paste keys at the same place as on a qwerty/azerty layout. This is handy to copy/paste with the left hand when using the mouse on the right hand for instance.
+
 ### Upper
+
+This layer hasn’t changed at all.
 
 ![Upper](./layers/2-upper.png)
 
 ### Game
+
+This layer is totally optional but can be practical for gamers. You can enable it from the `Fun1` layer above `Enter`. It recreates a qwerty layout and allows you to use regular keys in games (`W`, `A`, `S`, `D`, ...) without changing your operating system keyboard layout.
 
 ![Game](./layers/4-game.png)
