@@ -1,6 +1,6 @@
 # Atreus Bépo
 
-A simple default bépo configuration for the Atreus keyboard.
+A simple default Bépo configuration for the Atreus keyboard.
 
 ## Introduction
 
@@ -62,9 +62,20 @@ You can note that `ç` does not exist. 44 keys is not a lot and I could not find
 
 ### Fun
 
+Initially, the Atreus only has one `Fun` layer for numbers and special characters. However, almost no special character can be placed on the base layer in Bépo because it has more letters. And it also has more of them (`–`, `—`). So numbers and special characters did not fit together on the same layer. So the idea was to split into two `Fun` layers (`Fun1` and `Fun2`).
+
 #### Fun 1
 
 ![Fun 1](./layers/1-fun1.png)
+
+This `Fun1` layout it reached the same way as the `Fun` layer in qwerty. The left part of the keyboard almost did not change.
+
+- `"` replaces `!` because `!` can be typed on the base layer. On top of that, `"` ends up being physically at the same place as on a regular Bépo keyboard (same key as `1`).
+- `'` is right beside `"`. They are relative, so having them next to each other makes sense. Note that on 1.1rc2, the typographic apostrophe replaces the regular one. But the regular is still needed when programming for instance.
+- `<` and `>` are at the same place as on the base layer of a qwerty layout.
+- `@`, `+`, `-`, `/` and `*` are at the same place as on a regular Bépo keyboard (same keys as `6`, `7`, `8`, `9` and `0`).
+
+Other characters on the right hands at place without specific rules.
 
 #### Fun 2
 
