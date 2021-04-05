@@ -107,7 +107,7 @@ If a game listens to letters and `W` is "moving forward", well, you will have to
 
 However, more recent games listen for physical scancodes. For instance, the game expects you to type the second key on the top row to move forward. This will be `W` in qwerty, and `É` in Bépo. This solution is more robust and should normally work across multiple keyboard layouts. However, when you have an ergonomic keyboard such as the Atreus, this might not be sufficient. Keys modifiers are on the thumb, for instance, so you will lose your habits in games. You also don’t have easy access to numbers. What we want in the end is to have our fingers positioned physically at the same place as with a "standard" keyboard (e.g. `Ctrl` at the bottom left).
 
-Those two following layers were made for that purpose. The first one is to be used when a game listens to letters, while the second is for scancodes. If you don’t know what the game expects, just try them both and you will quickly see.
+Those two following layers were made for that purpose. Both have exactly the same outcome with same positions. It is just that the first one is to be used when a game listens to letters, while the second is for scancodes. If you don’t know what the game expects, just try them both and you will quickly see.
 
 You can enable them from the `Upper` layer with the left hand. Note that if you need a key that does not exist on the layer while gaming, you can quickly swap to the base layer and then come back. Same if you want to write words.
 
