@@ -765,16 +765,15 @@
         "baseCode": 32
       },
       {
-        "code": 17412,
+        "code": 65535,
         "label": {
-          "hint": "LockTo",
-          "base": "#4"
+          "base": {
+            "full": "Transparent",
+            "1u": " "
+          }
         },
-        "target": 4,
-        "rangeStart": 17408,
         "categories": [
-          "layer",
-          "locktolayer"
+          "blanks"
         ]
       },
       {
@@ -1105,14 +1104,15 @@
         }
       },
       {
-        "code": 24577,
+        "code": 65535,
         "label": {
-          "hint": "Macro",
-          "base": "#1"
+          "base": {
+            "full": "Transparent",
+            "1u": " "
+          }
         },
-        "rangeStart": 24576,
         "categories": [
-          "macros"
+          "blanks"
         ]
       },
       {
@@ -1156,15 +1156,16 @@
         ]
       },
       {
-        "code": 65535,
+        "code": 17413,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
+          "hint": "LockTo",
+          "base": "#5"
         },
+        "target": 5,
+        "rangeStart": 17408,
         "categories": [
-          "blanks"
+          "layer",
+          "locktolayer"
         ]
       },
       {
@@ -1281,15 +1282,16 @@
         ]
       },
       {
-        "code": 65535,
+        "code": 17412,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
+          "hint": "LockTo",
+          "base": "#4"
         },
+        "target": 4,
+        "rangeStart": 17408,
         "categories": [
-          "blanks"
+          "layer",
+          "locktolayer"
         ]
       },
       {
@@ -2276,6 +2278,19 @@
         }
       },
       {
+        "code": 24,
+        "label": {
+          "base": "u",
+          "shifted": "U"
+        }
+      },
+      {
+        "code": 44,
+        "label": {
+          "base": "Space"
+        }
+      },
+      {
         "code": 226,
         "label": {
           "base": "Alt"
@@ -2284,12 +2299,6 @@
         "categories": [
           "modifier"
         ]
-      },
-      {
-        "code": 44,
-        "label": {
-          "base": "Space"
-        }
       },
       {
         "code": 57,
@@ -2301,11 +2310,17 @@
         }
       },
       {
-        "code": 24,
+        "code": 17492,
         "label": {
-          "base": "u",
-          "shifted": "U"
-        }
+          "hint": "MoveTo",
+          "base": "#0"
+        },
+        "target": 0,
+        "rangeStart": 17492,
+        "categories": [
+          "layer",
+          "movetolayer"
+        ]
       },
       {
         "code": 20,
@@ -2327,6 +2342,346 @@
           "base": "'",
           "shifted": "\""
         }
+      }
+    ],
+    [
+      {
+        "code": 41,
+        "label": {
+          "base": "Esc"
+        }
+      },
+      {
+        "code": 30,
+        "label": {
+          "base": "1",
+          "shifted": "!"
+        }
+      },
+      {
+        "code": 31,
+        "label": {
+          "base": "2",
+          "shifted": "@"
+        }
+      },
+      {
+        "code": 32,
+        "label": {
+          "base": "3",
+          "shifted": "#"
+        }
+      },
+      {
+        "code": 33,
+        "label": {
+          "base": "4",
+          "shifted": "$"
+        }
+      },
+      {
+        "code": 65535,
+        "label": {
+          "base": {
+            "full": "Transparent",
+            "1u": " "
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 65535,
+        "label": {
+          "base": {
+            "full": "Transparent",
+            "1u": " "
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 34,
+        "label": {
+          "base": "5",
+          "shifted": "%"
+        }
+      },
+      {
+        "code": 35,
+        "label": {
+          "base": "6",
+          "shifted": "^"
+        }
+      },
+      {
+        "code": 36,
+        "label": {
+          "base": "7",
+          "shifted": "&"
+        }
+      },
+      {
+        "code": 37,
+        "label": {
+          "base": "8",
+          "shifted": "*"
+        }
+      },
+      {
+        "code": 53,
+        "label": {
+          "base": "`",
+          "shifted": "~"
+        }
+      },
+      {
+        "code": 43,
+        "label": {
+          "base": "Tab"
+        }
+      },
+      {
+        "code": 20,
+        "label": {
+          "base": "q",
+          "shifted": "Q"
+        }
+      },
+      {
+        "code": 26,
+        "label": {
+          "base": "w",
+          "shifted": "W"
+        }
+      },
+      {
+        "code": 8,
+        "label": {
+          "base": "e",
+          "shifted": "E"
+        }
+      },
+      {
+        "code": 21,
+        "label": {
+          "base": "r",
+          "shifted": "R"
+        }
+      },
+      {
+        "code": 65535,
+        "label": {
+          "base": {
+            "full": "Transparent",
+            "1u": " "
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 65535,
+        "label": {
+          "base": {
+            "full": "Transparent",
+            "1u": " "
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 23,
+        "label": {
+          "base": "t",
+          "shifted": "T"
+        }
+      },
+      {
+        "code": 28,
+        "label": {
+          "base": "y",
+          "shifted": "Y"
+        }
+      },
+      {
+        "code": 24,
+        "label": {
+          "base": "u",
+          "shifted": "U"
+        }
+      },
+      {
+        "code": 12,
+        "label": {
+          "base": "i",
+          "shifted": "I"
+        }
+      },
+      {
+        "code": 18,
+        "label": {
+          "base": "o",
+          "shifted": "O"
+        }
+      },
+      {
+        "code": 225,
+        "label": {
+          "base": "Shift"
+        },
+        "location": "left",
+        "categories": [
+          "modifier"
+        ]
+      },
+      {
+        "code": 4,
+        "label": {
+          "base": "a",
+          "shifted": "A"
+        }
+      },
+      {
+        "code": 22,
+        "label": {
+          "base": "s",
+          "shifted": "S"
+        }
+      },
+      {
+        "code": 7,
+        "label": {
+          "base": "d",
+          "shifted": "D"
+        }
+      },
+      {
+        "code": 9,
+        "label": {
+          "base": "f",
+          "shifted": "F"
+        }
+      },
+      {
+        "code": 10,
+        "label": {
+          "base": "g",
+          "shifted": "G"
+        }
+      },
+      {
+        "code": 40,
+        "label": {
+          "base": "Enter"
+        }
+      },
+      {
+        "code": 11,
+        "label": {
+          "base": "h",
+          "shifted": "H"
+        }
+      },
+      {
+        "code": 13,
+        "label": {
+          "base": "j",
+          "shifted": "J"
+        }
+      },
+      {
+        "code": 14,
+        "label": {
+          "base": "k",
+          "shifted": "K"
+        }
+      },
+      {
+        "code": 15,
+        "label": {
+          "base": "l",
+          "shifted": "L"
+        }
+      },
+      {
+        "code": 19,
+        "label": {
+          "base": "p",
+          "shifted": "P"
+        }
+      },
+      {
+        "code": 224,
+        "label": {
+          "base": {
+            "full": "Control",
+            "1u": "Ctrl"
+          }
+        },
+        "location": "left",
+        "categories": [
+          "modifier"
+        ]
+      },
+      {
+        "code": 29,
+        "label": {
+          "base": "z",
+          "shifted": "Z"
+        }
+      },
+      {
+        "code": 27,
+        "label": {
+          "base": "x",
+          "shifted": "X"
+        }
+      },
+      {
+        "code": 6,
+        "label": {
+          "base": "c",
+          "shifted": "C"
+        }
+      },
+      {
+        "code": 25,
+        "label": {
+          "base": "v",
+          "shifted": "V"
+        }
+      },
+      {
+        "code": 44,
+        "label": {
+          "base": "Space"
+        }
+      },
+      {
+        "code": 226,
+        "label": {
+          "base": "Alt"
+        },
+        "location": "left",
+        "categories": [
+          "modifier"
+        ]
+      },
+      {
+        "code": 57,
+        "label": {
+          "base": {
+            "full": "Caps Lock",
+            "1u": "CpLK"
+          }
+        }
       },
       {
         "code": 17492,
@@ -2340,584 +2695,27 @@
           "layer",
           "movetolayer"
         ]
-      }
-    ],
-    [
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
       },
       {
-        "code": 65535,
+        "code": 5,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
+          "base": "b",
+          "shifted": "B"
+        }
       },
       {
-        "code": 65535,
+        "code": 17,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
+          "base": "n",
+          "shifted": "N"
+        }
       },
       {
-        "code": 65535,
+        "code": 16,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
+          "base": "m",
+          "shifted": "M"
+        }
       }
     ],
     [
