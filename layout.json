@@ -428,17 +428,17 @@
         }
       },
       {
-        "code": 53,
+        "code": 33,
         "label": {
-          "base": "`",
-          "shifted": "~"
+          "base": "4",
+          "shifted": "$"
         }
       },
       {
-        "code": 46,
+        "code": 34,
         "label": {
-          "base": "=",
-          "shifted": "+"
+          "base": "5",
+          "shifted": "%"
         }
       },
       {
@@ -501,10 +501,10 @@
         }
       },
       {
-        "code": 33,
+        "code": 53,
         "label": {
-          "base": "4",
-          "shifted": "$"
+          "base": "`",
+          "shifted": "~"
         }
       },
       {
@@ -535,10 +535,10 @@
         }
       },
       {
-        "code": 34,
+        "code": 46,
         "label": {
-          "base": "5",
-          "shifted": "%"
+          "base": "=",
+          "shifted": "+"
         }
       },
       {
