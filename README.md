@@ -78,7 +78,7 @@ This `Fun1` layout it reached the same way as the `Fun` layer in qwerty. Some of
 - `@`, `+`, `-`, `/` and `*` are at the same place as on a regular Bépo keyboard (same keys as `6`, `7`, `8`, `9` and `0`).
 - `<` and `>` are at the same place as on the base layer of a qwerty layout.
 
-Other characters under the right hand are placed without applyng specific rules.
+Other characters under the right hand are placed without applying specific rules.
 
 #### Fun 2
 
