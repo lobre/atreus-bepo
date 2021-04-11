@@ -617,36 +617,6 @@
         }
       },
       {
-        "code": 1057,
-        "label": {
-          "hint": {
-            "full": "AltGr+",
-            "1u": "AGr+"
-          },
-          "base": "4"
-        },
-        "categories": [
-          "with-modifiers",
-          "altgr"
-        ],
-        "baseCode": 33
-      },
-      {
-        "code": 1058,
-        "label": {
-          "hint": {
-            "full": "AltGr+",
-            "1u": "AGr+"
-          },
-          "base": "5"
-        },
-        "categories": [
-          "with-modifiers",
-          "altgr"
-        ],
-        "baseCode": 34
-      },
-      {
         "code": 2101,
         "label": {
           "hint": null,
@@ -687,6 +657,36 @@
           "altgr"
         ],
         "baseCode": 6
+      },
+      {
+        "code": 1057,
+        "label": {
+          "hint": {
+            "full": "AltGr+",
+            "1u": "AGr+"
+          },
+          "base": "4"
+        },
+        "categories": [
+          "with-modifiers",
+          "altgr"
+        ],
+        "baseCode": 33
+      },
+      {
+        "code": 1058,
+        "label": {
+          "hint": {
+            "full": "AltGr+",
+            "1u": "AGr+"
+          },
+          "base": "5"
+        },
+        "categories": [
+          "with-modifiers",
+          "altgr"
+        ],
+        "baseCode": 34
       },
       {
         "code": 28,
@@ -1117,6 +1117,7 @@
       },
       {
         "code": 18665,
+        "legacyCode": 23785,
         "label": {
           "hint": {
             "full": "Volume",
@@ -1243,6 +1244,7 @@
       },
       {
         "code": 18666,
+        "legacyCode": 23786,
         "label": {
           "hint": {
             "full": "Volume",
@@ -1363,6 +1365,7 @@
       },
       {
         "code": 18637,
+        "legacyCode": 22733,
         "label": {
           "base": {
             "full": "Play / pause",
@@ -1643,16 +1646,11 @@
         "baseCode": 35
       },
       {
-        "code": 65535,
+        "code": 37,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
+          "base": "8",
+          "shifted": "*"
+        }
       },
       {
         "code": 65535,
@@ -1736,28 +1734,18 @@
         ]
       },
       {
-        "code": 65535,
+        "code": 38,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
+          "base": "9",
+          "shifted": "("
+        }
       },
       {
-        "code": 65535,
+        "code": 39,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
+          "base": "0",
+          "shifted": ")"
+        }
       },
       {
         "code": 2078,
@@ -1796,16 +1784,11 @@
         "baseCode": 32
       },
       {
-        "code": 65535,
+        "code": 36,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
+          "base": "7",
+          "shifted": "&"
+        }
       },
       {
         "code": 65535,
@@ -1888,25 +1871,6 @@
         }
       },
       {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 25,
-        "label": {
-          "base": "v",
-          "shifted": "V"
-        }
-      },
-      {
         "code": 2087,
         "label": {
           "hint": null,
@@ -1917,6 +1881,22 @@
           "shift"
         ],
         "baseCode": 39
+      },
+      {
+        "code": 176,
+        "label": {
+          "base": "#176"
+        },
+        "categories": [
+          "unknown"
+        ]
+      },
+      {
+        "code": 25,
+        "label": {
+          "base": "v",
+          "shifted": "V"
+        }
       },
       {
         "code": 40,
