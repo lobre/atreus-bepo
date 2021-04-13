@@ -6,7 +6,7 @@ A simple default Bépo configuration for the Atreus keyboard.
 
 The [Atreus](https://www.kickstarter.com/projects/keyboardio/atreus) is a small mechanical keyboard manufactured by Keyboardio. It has been designed with a qwerty layout in mind, and as it only has 44 keys, many symbols were pushed on what they call "layers". One can shift to a different layer by applying a key modifier.
 
-When using Bépo as the operating system keyboard layout, the Atreus does not translate super well. Some letters are totally missing. Others are located at the same place as symbols on the qwerty layout, and so are shifted to a second layer. That is not convenient. You expect at least to type regular letters using the base layer or you will have to do finger gymnastics to type simple sentences.
+When using Bépo as the operating system keyboard layout, the Atreus does not translate super well. Letters `z` and `w` are pushed to the `Fun` layer. And numbers are supposed to be typed with `Shift` in Bépo, while being pushed to the "Fun" layer on the Atreus. That means you have to type two modifiers to reach them (`Fun` plus `Shift`). Even more problematic, `AltGr` does not exist on the Atreus, so many characters will be missing. That is not convenient. You expect at least to have access to all characters and to type regular letters using the base layer (or you will have to do finger gymnastics to type simple sentences).
 
 Luckily, the Atreus is a configurable keyboard that you can customize. The simplest way to do so it by using [Chrysalis](https://github.com/keyboardio/Chrysalis).
 
