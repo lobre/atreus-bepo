@@ -765,16 +765,19 @@
         "baseCode": 32
       },
       {
-        "code": 65535,
+        "code": 1035,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
+          "hint": {
+            "full": "AltGr+",
+            "1u": "AGr+"
+          },
+          "base": "h"
         },
         "categories": [
-          "blanks"
-        ]
+          "with-modifiers",
+          "altgr"
+        ],
+        "baseCode": 11
       },
       {
         "code": 17410,
